@@ -20,7 +20,9 @@ class ListActivity : AppCompatActivity() {
 
         // Set up RecyclerView with adapter and layout manager
         recyclerView.layoutManager = LinearLayoutManager(this)
-        recyclerView.adapter = ProductAdapter(products)
+
+        // Using named parameter (more readable!)
+        recyclerView.adapter = ProductAdapter(products = products)
     }
 
     // Helper function to generate sample product data

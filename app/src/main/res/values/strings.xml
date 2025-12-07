@@ -3,4 +3,7 @@
     <string name="welcome_to_practice_app">Welcome to Practice App</string>
     <string name="go_to_list_screen">Go to List Screen</string>
     <string name="go_to_viewmodel_screen">Go to ViewModel Screen</string>
+    <string name="product_name">Product Name</string>
+    <string name="_0_00">$0.00</string>
+    <string name="product_description">Product description</string>
 </resources>
